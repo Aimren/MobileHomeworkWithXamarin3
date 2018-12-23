@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--For all properties see: http://developer.android.com/guide/topics/resources/menu-resource.html-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:id="@+id/option1"
+        android:title="Mentoring"/>
+  <item android:id="@+id/option2"
+      android:title="Course Information"/>
+  <item android:id="@+id/option3"
+      android:title="Project Participation"/>
+  <item android:id="@+id/option4"
+      android:title="Objection"/>
+  <item android:id="@+id/option5"
+      android:title="General"/>
+  
+</menu>

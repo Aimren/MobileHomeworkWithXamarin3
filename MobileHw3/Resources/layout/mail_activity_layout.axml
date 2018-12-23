@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ImageView
+		android:src="@drawable/mail"
+		android:layout_width="132.0dp"
+		android:layout_height="176.0dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/ımage"/>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:id="@+id/Text"
+		android:layout_toRightOf="@+id/ımage"/>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:id="@+id/Text2"
+		android:layout_toRightOf="@+id/ımage"
+		android:layout_below="@+id/Text"/>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:id="@+id/Text3" 
+		android:layout_toRightOf="@+id/ımage"
+		android:layout_below="@+id/Text2"/>
+	<Button
+		android:text="Send Maıl"
+		android:layout_width="match_parent"
+		android:id="@+id/button1" 
+		android:layout_height="46dp"
+		android:layout_toRightOf="@+id/ımage"
+		android:layout_below="@+id/Text3"
+		style="@style/mailbutton"/>
+
+</RelativeLayout>
